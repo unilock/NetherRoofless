@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "netherroofless",
+	"version": "${version}",
+	"name": "NetherRoofless",
+	"description": "Instantly kills players that go above Y=128 in the Nether",
+	"authors": [
+		"unilock"
+	],
+	"contact": {
+		"sources": "https://github.com/unilock/NetherRoofless"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"netherroofless.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20.3"
+	}
+}
